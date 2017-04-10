@@ -4,6 +4,8 @@
 body { font-family: 'Helvetica Nueue', Helvetica, Arial, sans-serif; font-size: 16px; font-weight:300; color: #000000; margin: 0; padding: 0; background: url("../img/background.jpg") repeat fixed center; }
 
 #page { max-width: 1200px; margin: 0 auto; position: relative; }
+
+#contact { max-width: 1200px; margin: 0 auto; position: relative; text-align: center; }
 		
 h1 {	margin: 0 0 1em; font-size: 2.8em; font-weight: 700; text-align: left; }
 h2 {	margin: 0 0 .5em 0; font-size:1.6em; font-weight: 700; line-height: 1.1em; }
@@ -78,7 +80,9 @@ section.how-to aside .content a { display: inline-block; color: #808080; font-we
 
 
 
-							
+div.contactfooter {
+    text-align: left;
+}							
 
 
 
@@ -280,7 +284,7 @@ footer a:hover { margin-left: 30px; color: #000; }
 	
 	nav a [aria-haspopup="true"]::after { display: none; }
 	
-	footer div.content { display: block; margin-top: 15px; }
+	footer div.content { display: block; margin-top: 15px; text-align: left; }
 	footer div.content a { margin: 0 20px 0 0; }
 	
 }
